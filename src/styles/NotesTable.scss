@@ -1,0 +1,52 @@
+.notes {
+  table {
+    width: 100%;
+    tr, td, th {
+      border: 1px solid #c7c7c7;
+    }
+    th {
+      text-align: center;
+    }
+    td {
+      padding: 0 8px;
+      color: #3a3939;
+    }
+    .row-hovered {
+      text-decoration: line-through;
+      color: #b5b3b3;
+      td {
+        color: #b5b3b3;
+      }
+    }
+    tr {
+      height: 50px;
+      .fa-pencil {
+        color: #3f7bff;
+      }
+      .fa-trash {
+        color: #dd4549;
+      }
+      .fa-pencil, .fa-trash {
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    .buttons-col {
+      width: 10%;
+    }
+    .title-col {
+      width: 25%;
+    }
+    .content-col {
+      width: 40%;
+    }
+    .date-col {
+      width: 25%;
+    }
+  }
+}
